@@ -14,6 +14,7 @@ img {
 
 a {
     text-decoration: none;
+    font-size: 18px;
 }
 
 a:link {
@@ -41,7 +42,7 @@ header {
     margin-bottom: 0px;
     border-color: #cccccc;
     padding-left: 40px;
-    float: left
+    float: left;
 }
 
 #menu {
@@ -66,7 +67,7 @@ h1 {
     width: 100px;
 }
 
-#aboutme {
+#info {
     padding-top: 10px;
     padding-left: 40px;
     padding-right: 10px;
@@ -79,7 +80,6 @@ h1 {
     margin-right: auto;
     text-align: left;
     clear: both;
-    overflow: ;
     line-height:
 }
 
@@ -98,10 +98,7 @@ aside {
     width: 960px;
     height: 300px;
     color: black;
-    clear:
-    overflow:
     font-size: 24px;
-    line-height:
   }
 
 footer {
@@ -118,4 +115,27 @@ footer {
     bottom: fixed;
 }
 
-
+.flex-container {
+    display: flex;
+    height: 100px;
+    align-items: center;
+    background-color: white;
+  }
+  
+  .flex-container > div {
+    background-color: #f1f1f1;
+    width: 100px;
+    length: 100px;
+    margin: 10px;
+    text-align: center;
+    line-height: 75px;
+    font-size: 30px;
+  }
+  
+  #flex {
+      overflow-y: scroll;
+      margin: 10px 10px 10px 10px;
+      padding: 10px 10px 10px 10px;
+      width: 938px;
+      height: 220px;
+  }
